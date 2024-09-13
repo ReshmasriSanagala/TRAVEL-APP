@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TRAVEL"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".hyderabad" />
+        <activity android:name=".hyderabad1" />
+        <activity android:name=".places" />
+        <activity android:name=".mumbai" />
+        <activity android:name=".mumbai1" />
+        <activity android:name=".tamil" />
+        <activity android:name=".tamil1" />
+        <activity android:name=".agra" />
+        <activity android:name=".agra1" />
+        <activity android:name=".delhi" />
+        <activity android:name=".delhi1" />
+        <activity android:name=".vizag" />
+        <activity android:name=".vizag1"
+            tools:ignore="DuplicateActivity" />
+
+        <activity android:name=".Database" />
+        <activity android:name=".reviews" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".yourplaces" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
